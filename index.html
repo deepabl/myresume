@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Resume | Portfolio</title>
+
+  <!-- Replace these links with your own profile links and image file -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <main class="page">
+    <header class="header card">
+      <div class="header-inner">
+        <div class="profile-col">
+          <img src="C:\Users\admin\Desktop\flask\app2.py\deepa.jfif" alt="Profile Photo" class="profile-pic" />
+        </div>
+
+        <div class="info-col">
+          <h1 class="name">Deepa Lakkappagol</h1>
+          <p class="role">BCA Student • Web Developer • Data analyst</p>
+
+          <div class="social-links">
+            <a href="https://github.com/tousifmahalingpur" class="social-btn github" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/tousifmahalingpur" class="social-btn linkedin" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+
+          <div class="quick-contact">
+            <span><strong>Email:</strong> deepabl215@gmail.com</span>
+            <span><strong>Phone:</strong> +91 7019819381</span>
+            <span><strong>Location:</strong> Jamkhandi, Karnataka</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="card about">
+      <h2>About Me</h2>
+      <p>
+I am a passionate BCA student with a strong interest in web development and data analysis. I aspire to become a skilled Web Developer and Data Analyst, dedicated to building impactful websites and extracting meaningful insights from data.      </p>
+    </section>
+
+    <section class="card edu-skills">
+      <div class="left">
+        <h2>Education</h2>
+        <div class="item">
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <p>BLDEA’s Comm, BHS Arts & TGP Science College, Jamkhandi</p>
+          <p><strong>Year:</strong> 2023–2026</p><br>
+           <h3>PUC ,state board</h3>
+          <p>Tungal Science composite pu College, Jamkhandi</p>
+          <p><strong>Year:</strong> 2021–2023</p><br>
+          <h3>SSLC,state board</h3>
+          <p>Atal bihari vajapayee residential school ,Halagali</p>
+          <p><strong>Year:</strong> 2016–2021</p>
+        </div>
+      </div>
+
+      <div class="right">
+        <h2>Skills</h2>
+        <ul class="skill-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>Power BI</li>
+          <li>java</li>
+          <li>Flask</li>
+           <li>R Programming</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card projects">
+      <h2>Projects</h2>
+
+      <div class="project-grid">
+        
+        <article class="project">
+          <h3>Portfolio Website</h3>
+          <p>Designed personal portfolio using GitHub Pages.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card hobbies">
+      <h2>Hobbies</h2>
+      <ul class="hobby-list">
+        <li>Playing outdoor Game</li>
+        <li>danicng</li>
+        <li>crafting</li>
+         <li>listening music</li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> deepalakkappagol. All Rights Reserved.</p>
+    </footer>
+  </main>
+
+  <script>
+    // Update footer year automatically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
